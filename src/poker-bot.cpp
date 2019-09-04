@@ -76,13 +76,13 @@ int menu(float bigBling, int tableSize, bool bot) {
   while(response < 0 || response > 6) {
     std::cout << "Minecraft 2.3 - Seja bem vindo!" << std::endl;
     std::cout << "bigBlind = " << bigBling << "      " << "tableSize = " << tableSize << "   bot status: " << bot << std::endl << std::endl;
-    std::cout << "0) Sair" << std::endl;
-    std::cout << "1) Jogo normal" << std::endl;
-    std::cout << "2) Jogo mocado" << std::endl;
-    std::cout << "3) mudar bigBlind" << std::endl;
-    std::cout << "4) mudar tableSize" << std::endl;
-    std::cout << "5) mudar bot" << std::endl;
-    std::cout << "6) testar" << std::endl;
+    std::cout << "0) Quit" << std::endl;
+    std::cout << "1) Play" << std::endl;
+    std::cout << "2) Play with mocked image (test)" << std::endl;
+    std::cout << "3) change big blind" << std::endl;
+    std::cout << "4) change table size" << std::endl;
+    std::cout << "5) change bot" << std::endl;
+    std::cout << "6) Some test" << std::endl;
     std::cin >> result;
     response = result;
   }
