@@ -3,6 +3,8 @@
 ## Description
 
 **__This repository was create just for learn more about c++ and opencv!__** Do not use to play with pokerstars as you can see on [PokerStars - Terms of Service 5.6](https://www.pokerstars.com/poker/room/tos/)
+
+
 A bot thats interact with pokerstarts **without any decision or logic to execute**
 
 
