@@ -45,7 +45,8 @@ reated by https://www.gitignore.io/api/c++,clion
  .idea/**/usage.statistics.xml
  .idea/**/dictionaries
  .idea/**/shelf
- .idea/**/*
+ .idea/**/*.xml
+ .idea/**/*.iml
 
  # Generated files
  .idea/**/contentModel.xml

@@ -9,7 +9,6 @@ Game::Game(TableSize tableSize, bool mocked, bool autoExecute) {
   this->imgVisitor = std::make_unique<ImageVisitor>(ImageVisitor(false));
   this->table = std::make_unique<Table>(Table(tableSize));
   this->mouse = std::make_unique<BaseMouse>(BaseMouse());
-//  this->smallBall = SmallBall();
   this->actualHand = "";
 }
 
@@ -33,25 +32,20 @@ void Game::playing() {
     if(!this->userTurn() || this->table->getHand().empty())
       continue;
 
-    PokerVariables itens;
     auto street = this->street();
     Actions actions = FOLD_ACTION;
     // define action here
     switch (street) {
       case PRE_FLOP_STREET:
-        itens.streetPoker = PRE_FLOP_STREET_POKER;
         this->preflop();
         break;
       case FLOP_STREET:
-        itens.streetPoker = FLOP_STREET_POKER;
         this->flop();
         break;
       case TURN_STREET:
-        itens.streetPoker = TURN_STREET_POKER;
         this->turn();
         break;
       case RIVER_STREET:
-        itens.streetPoker = RIVER_STREET_POKER;
         this->river();
         break;
     }

@@ -2,8 +2,8 @@
 // Created by xima on 07/07/19.
 //
 
-#ifndef MINECRAFT2_3_BASEIMAGE_HPP
-#define MINECRAFT2_3_BASEIMAGE_HPP
+#ifndef POKER_BOT_BASEIMAGE_HPP
+#define POKER_BOT_BASEIMAGE_HPP
 
 #include <iostream>
 #include <opencv4/opencv2/highgui.hpp>
@@ -23,4 +23,4 @@ protected:
   void crop(cv::Mat *original);
 };
 
-#endif //MINECRAFT2_3_BASEIMAGE_HPP
+#endif //POKER_BOT_BASEIMAGE_HPP

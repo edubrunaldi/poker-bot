@@ -2,8 +2,8 @@
 // Created by xima on 31/07/19.
 //
 
-#ifndef MINECRAFT2_3_BASEIMAGEFINDNUMBER_HPP
-#define MINECRAFT2_3_BASEIMAGEFINDNUMBER_HPP
+#ifndef POKER_BOT_BASEIMAGEFINDNUMBER_HPP
+#define POKER_BOT_BASEIMAGEFINDNUMBER_HPP
 
 #include <opencv4/opencv2/highgui.hpp>
 #include <opencv4/opencv2/core.hpp>
@@ -27,4 +27,4 @@ protected:
   std::unique_ptr<std::vector<Numbers>> numbers;
   float findNumber(std::unique_ptr<cv::Mat> &img, float threshold);
 };
-#endif //MINECRAFT2_3_BASEIMAGEFINDNUMBER_HPP
+#endif //POKER_BOT_BASEIMAGEFINDNUMBER_HPP

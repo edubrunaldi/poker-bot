@@ -2,8 +2,8 @@
 // Created by xima on 02/08/19.
 //
 
-#ifndef MINECRAFT2_3_TABLE_HPP
-#define MINECRAFT2_3_TABLE_HPP
+#ifndef POKER_BOT_TABLE_HPP
+#define POKER_BOT_TABLE_HPP
 
 #include "Pot.hpp"
 #include "Player.hpp"
@@ -49,4 +49,4 @@ public:
   std::string playersPlaying();
 
 };
-#endif //MINECRAFT2_3_TABLE_HPP
+#endif //POKER_BOT_TABLE_HPP

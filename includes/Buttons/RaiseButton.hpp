@@ -2,8 +2,8 @@
 // Created by xima on 05/08/19.
 //
 
-#ifndef MINECRAFT2_3_RAISEBUTTON_HPP
-#define MINECRAFT2_3_RAISEBUTTON_HPP
+#ifndef POKER_BOT_RAISEBUTTON_HPP
+#define POKER_BOT_RAISEBUTTON_HPP
 
 #include "../BaseClasses/BaseMouse.hpp"
 
@@ -16,4 +16,4 @@ public:
   explicit RaiseButton(int buttonNumber);
   void click();
 };
-#endif //MINECRAFT2_3_RAISEBUTTON_HPP
+#endif //POKER_BOT_RAISEBUTTON_HPP

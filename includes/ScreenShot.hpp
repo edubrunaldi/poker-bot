@@ -2,8 +2,8 @@
 // Created by xima on 07/07/19.
 //
 
-#ifndef MINECRAFT2_SCREENSHOT_H
-#define MINECRAFT2_SCREENSHOT_H
+#ifndef POKER_BOT_SCREENSHOT_H
+#define POKER_BOT_SCREENSHOT_H
 
 
 #include <X11/Xlib.h>
@@ -86,4 +86,4 @@
 //};
 //
 
-#endif //MINECRAFT2_SCREENSHOT_H
+#endif //POKER_BOT_SCREENSHOT_H

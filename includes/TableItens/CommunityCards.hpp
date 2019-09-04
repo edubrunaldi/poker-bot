@@ -2,8 +2,8 @@
 // Created by xima on 07/08/19.
 //
 
-#ifndef MINECRAFT2_3_COMMUNITYCARDS_HPP
-#define MINECRAFT2_3_COMMUNITYCARDS_HPP
+#ifndef POKER_BOT_COMMUNITYCARDS_HPP
+#define POKER_BOT_COMMUNITYCARDS_HPP
 
 #include <bits/unique_ptr.h>
 #include "Card.hpp"
@@ -19,4 +19,4 @@ public:
   int cardOnTable();
   std::string getCards();
 };
-#endif //MINECRAFT2_3_COMMUNITYCARDS_HPP
+#endif //POKER_BOT_COMMUNITYCARDS_HPP

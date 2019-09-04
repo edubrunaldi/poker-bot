@@ -2,8 +2,8 @@
 // Created by xima on 05/08/19.
 //
 
-#ifndef MINECRAFT2_3_CALL_HPP
-#define MINECRAFT2_3_CALL_HPP
+#ifndef POKER_BOT_CALL_HPP
+#define POKER_BOT_CALL_HPP
 
 #include "../utils.hpp"
 #include "../BaseClasses/BaseImage.hpp"
@@ -29,4 +29,4 @@ public:
   void compute(cv::Mat *src);
   void accept(AbstractVisitor& visitor) override ;
 };
-#endif //MINECRAFT2_3_CALL_HPP
+#endif //POKER_BOT_CALL_HPP

@@ -25,11 +25,9 @@ Application::Application(int tableSizeNumber, bool autoExecute, bool mocked) {
       std::cout << "Tamanho da mesa desconhecido (Application::Application) : " + std::to_string(tableSizeNumber) << std::endl;
       throw;
   }
-  this->game = new Game(tableSize, mocked, autoExecute);
+  this->game = std::make_unique<Game>(Game(tableSize, mocked, autoExecute));
 }
-Application::~Application() {
-  delete this->game;
-}
+
 
 void Application::setBigBlind(float bigBlindSize) {
   this->game->setBigBlind(bigBlindSize);

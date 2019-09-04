@@ -2,8 +2,8 @@
 // Created by xima on 27/07/19.
 //
 
-#ifndef MINECRAFT2_3_PLAYERSTATUS_HPP
-#define MINECRAFT2_3_PLAYERSTATUS_HPP
+#ifndef POKER_BOT_PLAYERSTATUS_HPP
+#define POKER_BOT_PLAYERSTATUS_HPP
 
 #include "../BaseClasses/BaseImage.hpp"
 #include "../utils.hpp"
@@ -31,4 +31,4 @@ public:
   void accept(AbstractVisitor& visitor) override ;
 };
 
-#endif //MINECRAFT2_3_PLAYERSTATUS_HPP
+#endif //POKER_BOT_PLAYERSTATUS_HPP

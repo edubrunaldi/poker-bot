@@ -2,8 +2,8 @@
 // Created by xima on 02/08/19.
 //
 
-#ifndef MINECRAFT2_3_IMAGEVISITOR_HPP
-#define MINECRAFT2_3_IMAGEVISITOR_HPP
+#ifndef POKER_BOT_IMAGEVISITOR_HPP
+#define POKER_BOT_IMAGEVISITOR_HPP
 
 #include <iostream>
 #include "AbstractClasses/AbstractVisitor.hpp"
@@ -49,4 +49,4 @@ public:
   void visit(CommunityCards& communityCards) override ;
 
 };
-#endif //MINECRAFT2_3_IMAGEVISITOR_HPP
+#endif //POKER_BOT_IMAGEVISITOR_HPP

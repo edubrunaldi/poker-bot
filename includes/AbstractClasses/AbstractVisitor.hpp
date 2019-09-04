@@ -2,8 +2,8 @@
 // Created by xima on 02/08/19.
 //
 
-#ifndef MINECRAFT2_3_ABSTRACTVISITOR_HPP
-#define MINECRAFT2_3_ABSTRACTVISITOR_HPP
+#ifndef POKER_BOT_ABSTRACTVISITOR_HPP
+#define POKER_BOT_ABSTRACTVISITOR_HPP
 
 class Table;
 class Pot;
@@ -31,4 +31,4 @@ public:
   virtual void visit(Bet& bet) = 0;
   virtual void visit(CommunityCards& communityCards) = 0;
 };
-#endif //MINECRAFT2_3_ABSTRACTVISITOR_HPP
+#endif //POKER_BOT_ABSTRACTVISITOR_HPP

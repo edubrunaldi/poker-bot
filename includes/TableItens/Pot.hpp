@@ -2,8 +2,8 @@
 // Created by xima on 31/07/19.
 //
 
-#ifndef MINECRAFT2_3_POT_HPP
-#define MINECRAFT2_3_POT_HPP
+#ifndef POKER_BOT_POT_HPP
+#define POKER_BOT_POT_HPP
 
 #include "../BaseClasses/BaseImageFindNumber.hpp"
 #include "../BaseClasses/BaseImage.hpp"
@@ -28,4 +28,4 @@ public:
 
   void accept(AbstractVisitor& visitor) override ;
 };
-#endif //MINECRAFT2_3_POT_HPP
+#endif //POKER_BOT_POT_HPP

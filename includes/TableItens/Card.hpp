@@ -2,8 +2,8 @@
 // Created by xima on 07/07/19.
 //
 
-#ifndef MINECRAFT2_3_CARD_HPP
-#define MINECRAFT2_3_CARD_HPP
+#ifndef POKER_BOT_CARD_HPP
+#define POKER_BOT_CARD_HPP
 
 #include "../BaseClasses/BaseImage.hpp"
 #include "../utils.hpp"
@@ -50,4 +50,4 @@ public:
   void accept(AbstractVisitor& visitor) override ;
 };
 
-#endif //MINECRAFT2_3_CARD_HPP
+#endif //POKER_BOT_CARD_HPP

@@ -2,8 +2,8 @@
 // Created by xima on 07/07/19.
 //
 
-#ifndef MINECRAFT2_3_UTILS_HPP
-#define MINECRAFT2_3_UTILS_HPP
+#ifndef POKER_BOT_UTILS_HPP
+#define POKER_BOT_UTILS_HPP
 
 
 void testOpencv(char *);
@@ -14,7 +14,7 @@ void testOpencv(char *);
 #include <exception>
 
 /**
- * Path defaults
+ * Path defaults, given that you are execute in poker-bot/:w
  */
  static std::string pathCommonsImages = "images/default/cropped/common";
  static std::string pathTable9Images = "images/default/cropped/9";
@@ -59,4 +59,4 @@ struct ImageCoordinate {
 
 void asyncWaitKeyStop(char key);
 
-#endif //MINECRAFT2_3_UTILS_HPP
+#endif //POKER_BOT_UTILS_HPP
