@@ -21,6 +21,8 @@ A bot thats interact with pokerstarts **without any decision or logic to execute
   * Fix automatic click (not working)
   
   * Automatic get big bling from the window table
+  
+  * Create unit tests
       
  ### Use
  
